@@ -9,7 +9,7 @@ const nodes = [
   {
     step: '02',
     icon: '🌿',
-    title: 'Territorio',
+    title: 'campo',
     desc: 'Ejecución real en reservas forestales de Imataca, Caroní, Caparo, entre otras. Presencia permanente, botas en el barro, datos verificables en sitio.',
     detail: 'Presencia permanente, botas en el barro, datos verificables en sitio',
   },
@@ -37,7 +37,7 @@ export default function Ecosystem() {
           <div>
             <p className="eyebrow" style={{ color: 'var(--sage)' }}>El método GIMEFOR</p>
             <h2 className="section-title section-title--light">
-              El ecosistema que articula ciencia y territorio
+              El ecosistema que articula ciencia y campo
             </h2>
           </div>
           <p className="section-body section-body--light">

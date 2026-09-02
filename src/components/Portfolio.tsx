@@ -58,7 +58,7 @@ export default function Portfolio() {
     <section id="portafolio" className="portfolio">
       <div className="container">
         <div className="section-header">
-          <p className="eyebrow">Ciencia en el territorio</p>
+          <p className="eyebrow">Ciencia en el campo</p>
           <h2 className="section-title">Donde la teoría se convierte en Realidad</h2>
           <p className="section-body">
             Hablamos de hectáreas medidas, comunidades articuladas y normativas cumplidas. Cada intervención se documenta con datos duros y métricas auditables que resisten cualquier escrutinio técnico o institucional.

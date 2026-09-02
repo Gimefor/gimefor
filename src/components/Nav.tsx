@@ -33,7 +33,7 @@ export default function Nav() {
         <ul className={`nav__links${open ? ' nav__links--open' : ''}`}>
           <li><a href="#inicio" onClick={close}>Inicio</a></li>
           <li><a href="#nosotros" onClick={close}>GIMEFOR</a></li>
-          <li><a href="#portafolio" onClick={close}>Ciencia en el Territorio</a></li>
+          <li><a href="#portafolio" onClick={close}>Ciencia en el campo</a></li>
           <li><a href="#soluciones" onClick={close}>Soluciones</a></li>
           <li><a href="#biblioteca" onClick={close}>Biblioteca</a></li>
           <li><a href="#contacto" onClick={close} className="nav__cta">Contacto</a></li>

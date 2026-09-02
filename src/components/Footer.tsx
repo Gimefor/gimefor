@@ -56,7 +56,7 @@ export default function Footer() {
               <span className="footer__contact-value"> +58 426 173 34 67</span>
             </div>
             <div className="footer__contact-item">
-              <span className="footer__contact-label">Territorio</span>
+              <span className="footer__contact-label">campo</span>
               <span className="footer__contact-value">Imataca · Caroní · Caparo</span>
             </div>
           </div>

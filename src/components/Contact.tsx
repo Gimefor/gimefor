@@ -59,7 +59,7 @@ export default function Contact() {
               <div className="contact__info-item">
                 <div className="contact__info-icon">🌿</div>
                 <div>
-                  <span className="contact__info-label">Territorio de operación</span>
+                  <span className="contact__info-label">campo de operación</span>
                   <span className="contact__info-value">Imataca · Caroní · Caparo · Delta del Orinoco</span>
                 </div>
               </div>
