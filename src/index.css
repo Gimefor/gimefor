@@ -324,7 +324,7 @@ input, select, textarea { font-family: var(--font-body); }
 .hero__bg {
   position: absolute;
   inset: 0;
-  background-image: url('public/heroImage.jpg');
+  background-image: url('/heroImage.jpg');
   background-size: cover;
   background-position: center 35%;
   background-color: var(--forest-deep);
