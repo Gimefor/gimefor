@@ -9,23 +9,23 @@ const nodes = [
   {
     step: '02',
     icon: '🌿',
-    title: 'campo',
-    desc: 'Ejecución real en reservas forestales de Imataca, Caroní, Caparo, entre otras. Presencia permanente, botas en el barro, datos verificables en sitio.',
+    title: 'Campo',
+    desc: 'Ejecución en diversos ecosistemas forestales. Presencia permanente, botas en el barro, datos verificables en sitio.',
     detail: 'Presencia permanente, botas en el barro, datos verificables en sitio',
   },
   {
     step: '03',
     icon: '🤝',
     title: 'Comunidad',
-    desc: 'Coprotagonismo de actores locales como garantía de sostenibilidad a largo plazo. Comunidades organizadas como socias activas con voz decisoria en cada etapa.',
-    detail: 'Comunidades organizadas como socias activas, no beneficiarias pasivas',
+    desc: 'Co-gestión basada en el respeto mutuo con actores locales como garantía de sostenibilidad a largo plazo. Comunidades organizadas como socias activas con voz decisoria en cada etapa.',
+    detail: '',
   },
   {
     step: '04',
     icon: '📋',
     title: 'Normativa',
-    desc: 'Alineación con EUDR, CBD, Acuerdo de París y estándares de certificación internacional. Auditorías, trazabilidad, cadenas de custodia documentadas.',
-    detail: 'Auditorías, trazabilidad, cadenas de custodia documentadas',
+    desc: 'Alineación con los Objetivos de Desarrollo Sostenible ODS, Mitigación y adaptación al cambio climático, Soluciones Basadas en la Naturaleza SBN y estándares de certificación internacional. Auditorías, trazabilidad, cadenas de custodia documentadas.',
+    detail: '',
   },
 ];
 

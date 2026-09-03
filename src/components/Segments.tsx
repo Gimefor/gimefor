@@ -19,25 +19,25 @@ const segments = [
     icon: '🏭',
     tag: 'Sector Productivo',
     title: 'Para Empresas y PYMEs',
-    pain: 'Aserraderos, petroleras y empresas agroindustriales enfrentan auditorías EUDR y Sello Verde que exigen respaldo técnico riguroso para demostrar cumplimiento normativo forestal.',
+    pain: 'Empresas forestales, agroindustriales y petroleras que enfrentan exigentes normativas y certificaciones, y que requieren respaldo técnico riguroso para demostrar el cumplimiento ambiental y el manejo sustentable de los recursos naturales.',
     features: [
       'Inventarios forestales certificables',
       'Cadenas de custodia documentadas',
-      'Planes de manejo EUDR-compatibles',
+      'Planes de manejo forestal y plan forestal operativo',
+      'Estudios de impacto ambiental y sociocultural',
       'Acompañamiento en auditorías externas',
       'Integración de saberes comunitarios para sostenibilidad a largo plazo',
-      'Validación técnica con respaldo de publicaciones indexadas',
+      'Validación técnica con respaldo de publicaciones y proyectos',
     ],
-    cta: 'Ver soluciones EUDR →',
+    cta: 'Ver soluciones →',
   },
   {
     variant: 'inst',
     icon: '🏛️',
     tag: 'Instituciones del Estado',
     title: 'Para el Sector Público',
-    pain: 'Ministerios y organismos del Estado requieren respaldo técnico riguroso para compromisos ante el CBD, el Acuerdo de París y planes de manejo de áreas protegidas.',
+    pain: 'Ministerios y organismos del Estado requieren respaldo técnico riguroso para compromisos con los Objetivos de Desarrollo Sostenible ODS, Mitigación y adaptación al cambio climático',
     features: [
-      'Respaldo para convenios CBD y París',
       'Planes de manejo de áreas protegidas',
       'Consultoría para políticas forestales',
       'Datos de campo para informes nacionales',
@@ -52,9 +52,9 @@ export default function Segments() {
     <section id="soluciones" className="segments">
       <div className="container">
         <div className="section-header section-header--center">
-          <p className="eyebrow">Soluciones por actor</p>
+          <p className="eyebrow">Nuestras Soluciones</p>
           <h2 className="section-title">
-            La ciencia correcta para el problema correcto
+            Una Solución para cada problema planteado
           </h2>
           <p className="section-body">
             Cada aliado enfrenta desafíos únicos que requieren respuestas técnicas precisas. Cada segmento tiene su propio lenguaje de riesgo y su propio estándar de evidencia.

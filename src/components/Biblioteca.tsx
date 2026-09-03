@@ -52,7 +52,7 @@ export default function Biblioteca() {
           <p className="eyebrow">Biblioteca científica</p>
           <h2 className="section-title">Conocimiento abierto</h2>
           <p className="section-body">
-Manuales técnicos descargables y publicaciones indexadas que documentan 30 años de ciencia forestal aplicada.
+            Manuales técnicos descargables y publicaciones que documentan 30 años de ciencia forestal aplicada.
           </p>
         </div>
 
@@ -77,7 +77,7 @@ Manuales técnicos descargables y publicaciones indexadas que documentan 30 año
           <div>
             <p className="biblioteca__col-header">
               <span className="biblioteca__col-header-icon">📄</span>
-              Publicaciones indexadas (2007–2023)
+              Publicaciones (2007–2023)
             </p>
             {publications.map(p => (
               <div key={p.title} className="pub-item">
