@@ -4,20 +4,20 @@ const nodes = [
     icon: '🔬',
     title: 'Ciencia',
     desc: 'Investigación primaria y datos de campo en ecosistemas húmedos, manglares y xerofíticos. Inventarios forestales, medición de carbono, estudios de biodiversidad',
-    detail: 'Inventarios forestales, medición de carbono, estudios de biodiversidad',
+    detail: '',
   },
   {
     step: '02',
     icon: '🌿',
     title: 'Campo',
     desc: 'Ejecución en diversos ecosistemas forestales. Presencia permanente, botas en el barro, datos verificables en sitio.',
-    detail: 'Presencia permanente, botas en el barro, datos verificables en sitio',
+    detail: '',
   },
   {
     step: '03',
     icon: '🤝',
     title: 'Comunidad',
-    desc: 'Co-gestión basada en el respeto mutuo con actores locales como garantía de sostenibilidad a largo plazo. Comunidades organizadas como socias activas con voz decisoria en cada etapa.',
+    desc: 'Co-gestión basada en respeto mutuo, con comunidades organizadas como socias activas y voz decisoria, para garantizar sostenibilidad a largo plazo.',
     detail: '',
   },
   {
@@ -41,7 +41,7 @@ export default function Ecosystem() {
             </h2>
           </div>
           <p className="section-body section-body--light">
-            Nuestra metodología integra cuatro dimensiones que la consultoría convencional aborda de forma aislada. El resultado son intervenciones verificables con evidencia documentada en cada etapa."
+            Nuestra metodología integra cuatro dimensiones que la consultoría convencional aborda de forma aislada. El resultado son intervenciones verificables con evidencia documentada en cada etapa.
           </p>
         </div>
 

@@ -19,7 +19,7 @@ const segments = [
     icon: '🏭',
     tag: 'Sector Productivo',
     title: 'Para Empresas y PYMEs',
-    pain: 'Empresas forestales, agroindustriales y petroleras que enfrentan exigentes normativas y certificaciones, y que requieren respaldo técnico riguroso para demostrar el cumplimiento ambiental y el manejo sustentable de los recursos naturales.',
+    pain: 'Empresas forestales, agroindustriales y petroleras sujetas a normativas y certificaciones exigentes, que requieren respaldo técnico para demostrar cumplimiento ambiental y manejo sostenible.',
     features: [
       'Inventarios forestales certificables',
       'Cadenas de custodia documentadas',

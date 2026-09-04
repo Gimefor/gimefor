@@ -1,8 +1,8 @@
 const stats = [
   { number: '30+', label: 'Años de trayectoria' },
-  { number: '20+', label: 'Publicaciones indexadas' },
+  { number: '20+', label: 'Publicaciones' },
+  { number: '13', label: 'Proyectos' },
   { number: '100%', label: 'Cumplimiento normativo' },
-  { number: '3', label: 'Reservas forestales' },
 ];
 
 const partners = ['FAO', 'GEF', 'ONU'];

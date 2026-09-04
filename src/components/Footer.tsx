@@ -12,9 +12,12 @@ export default function Footer() {
               Gestión Integrada de Recursos Forestales. Construyendo estándares de manejo forestal verificables desde 1995.
             </p>
             <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
-              <span className="footer__seal">ISO 17024</span>
-              <span className="footer__seal">CBD</span>
-              <span className="footer__seal">EUDR ready</span>
+              <span className="footer__seal">ISO</span>
+              <span className="footer__seal">ODS</span>
+              <span className="footer__seal">SBN</span>
+              <span className="footer__seal">CDB</span>
+              <span className="footer__seal">UNFCCC</span>
+              <span className="footer__seal">UNCCD</span>
             </div>
           </div>
 

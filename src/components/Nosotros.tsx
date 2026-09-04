@@ -3,13 +3,13 @@ const values = [
     icon: '📐',
     variant: 'forest',
     title: 'Legado que se verifica',
-    desc: 'Treinta años de registros científicos, datos de campo y publicaciones indexadas que respaldan cada recomendación técnica emitida.',
+    desc: 'Treinta años de registros científicos, datos de campo y publicaciones que respaldan cada recomendación técnica emitida.',
   },
   {
     icon: '🔗',
     variant: 'plum',
     title: 'Método que articula',
-    desc: 'Ciencia participativa que conecta comunidades organizadas, instituciones públicas y sector productivo en torno a soluciones reales.',
+    desc: 'Conectamos comunidades organizadas, instituciones del estado y sector productivo en torno a soluciones reales.',
   },
   {
     icon: '⚗️',
@@ -42,9 +42,11 @@ export default function Nosotros() {
               <h2 className="section-title">
                 Pioneros en gestión forestal participativa desde 1995
               </h2>
-              <p className="section-body">
+              {/* <p className="section-body">
                 Tres décadas de trabajo en campo nos han permitido consolidar un modelo integral donde el rigor científico, la articulación con actores clave y la verificabilidad de resultados convergen en cada proyecto. Esta es la base de nuestra autoridad técnica y la razón por la que organismos internacionales, instituciones y empresas nos eligen como socio estratégico."
-              </p>
+              </p> */}
+              <p className="section-body">
+                Tres décadas de trabajo en campo consolidan un modelo integral de rigor científico, articulación multisectorial y resultados verificables que posiciona a GIMEFOR como socio estratégico de instituciones nacionales e internacionales y del sector productivo.              </p>
             </div>
 
             <div className="nosotros__values">

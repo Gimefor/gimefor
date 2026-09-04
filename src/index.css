@@ -395,7 +395,7 @@ input, select, textarea { font-family: var(--font-body); }
 }
 
 .hero__subtitle {
-  font-size: 1.0625rem;
+  font-size: 1.1rem;
   color: rgba(255, 255, 255, 0.65);
   max-width: 520px;
   margin-bottom: 2.5rem;
@@ -716,6 +716,23 @@ input, select, textarea { font-family: var(--font-body); }
   max-height: 80px;
 }
 
+@media (min-width: 921px) {
+  .ecosystem__node-desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  /* Desktop + hover: mostrar texto completo */
+  .ecosystem__node:hover .ecosystem__node-desc {
+    -webkit-line-clamp: unset;
+    display: block;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
 @media (max-width: 920px) {
   .ecosystem__header { grid-template-columns: 1fr; gap: 2rem; }
   .ecosystem__flow { grid-template-columns: 1fr 1fr; }
@@ -851,6 +868,29 @@ input, select, textarea { font-family: var(--font-body); }
   transition: gap 0.2s;
 }
 .segment-card__cta:hover { gap: 0.625rem; }
+
+/* En desktop: ocultar features a partir de la 6ta */
+@media (min-width: 921px) {
+  .segment-card__features {
+    transition: all 0.3s ease;
+  }
+
+  .segment-card__feature:nth-child(n+6) {
+    opacity: 0;
+    max-height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+  }
+
+  /* Al hacer hover: mostrar todas las features */
+  .segment-card:hover .segment-card__feature:nth-child(n+4) {
+    opacity: 1;
+    max-height: 50px;
+    margin-top: 0;
+  }
+}
 
 @media (max-width: 920px) {
   .segments__grid { grid-template-columns: 1fr 1fr; }
