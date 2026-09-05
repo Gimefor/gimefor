@@ -6,12 +6,12 @@ export default function Hero() {
       <div className="hero__content">
         <p className="hero__eyebrow">Venezuela · Desde 1995</p>
         <h1 className="hero__title">
-          Ciencia forestal aplicada con<br />
-          <em>estándar verificable.</em>
+          Tres décadas en campo formando estándares <br />
+          <em>verificables.</em>
         </h1>
         <p className="hero__subtitle">
-          Gestión forestal sostenible, restauración de ecosistemas y cumplimiento normativo ambiental con respaldo científico verificable en campo, para organismos internacionales, instituciones y sector productivo que exigen certeza técnica.
-        </p>
+          Gestión forestal, restauración de ecosistemas y cumplimiento normativo ambiental con respaldo científico en campo.
+          <br /> El socio técnico de organismos internacionales, instituciones estadales y empresas que exigen certeza.        </p>
         <div className="hero__actions">
           <a href="#contacto" className="btn btn--primary">
             Solicitar Dossier de Evidencia
