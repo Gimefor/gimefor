@@ -82,12 +82,12 @@ export default function Portfolio() {
         <div className="portfolio__grid">
           {visible.map(p => (
             <article key={p.id} className="project-card">
-              <div className="project-card__media">
+              {/* <div className="project-card__media">
                 <img src={p.img} alt={p.title} />
                 <div className="project-card__media-overlay" />
                 <span className="project-card__eco-tag">{p.ecosystem}</span>
                 <span className="project-card__year">{p.years}</span>
-              </div>
+              </div> */}
               <div className="project-card__body">
                 <p className="project-card__partner">{p.partner}</p>
                 <h3 className="project-card__title">{p.title}</h3>

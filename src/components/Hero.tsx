@@ -6,8 +6,8 @@ export default function Hero() {
       <div className="hero__content">
         <p className="hero__eyebrow">Venezuela · Desde 1995</p>
         <h1 className="hero__title">
-          Tres décadas en campo formando estándares <br />
-          <em>verificables.</em>
+          Tres décadas en campo formando <br />
+          <em>estándares.</em>
         </h1>
         <p className="hero__subtitle">
           Gestión forestal, restauración de ecosistemas y cumplimiento normativo ambiental con respaldo científico en campo.

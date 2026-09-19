@@ -81,6 +81,10 @@ export default function Contact() {
           </div>
 
           <div className="form">
+            <img src="/humedo.jpg" alt="" />
+          </div>
+
+          {/* <div className="form">
             {sent ? (
               <div className="form__success">
                 <span className="form__success-icon">✅</span>
@@ -188,7 +192,7 @@ export default function Contact() {
                 </form>
               </>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
