@@ -5,7 +5,7 @@ const stats = [
   { number: '100%', label: 'Cumplimiento normativo' },
 ];
 
-const partners = ['INDEFOR', 'IFLA', 'CICMENTA'];
+const partners = ['INDEFOR', 'IFLA', 'CICMETA'];
 
 export default function ValidationBar() {
   return (
