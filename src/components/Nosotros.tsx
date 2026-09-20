@@ -26,7 +26,7 @@ export default function Nosotros() {
         <div className="nosotros__grid">
           <div className="nosotros__image-wrap">
             <img
-              src="imgAbout.jpg"
+              src="imgHero3.jpg"
               alt="Ecosistema de manglar — área de intervención GIMEFOR en el Delta del Orinoco"
               className="nosotros__image"
             />
@@ -42,9 +42,9 @@ export default function Nosotros() {
               <h2 className="section-title">
                 Pioneros en gestión forestal participativa desde 1995
               </h2>
-              {/* <p className="section-body">
-                Tres décadas de trabajo en campo nos han permitido consolidar un modelo integral donde el rigor científico, la articulación con actores clave y la verificabilidad de resultados convergen en cada proyecto. Esta es la base de nuestra autoridad técnica y la razón por la que organismos internacionales, instituciones y empresas nos eligen como socio estratégico."
-              </p> */}
+              <p className="section-body">
+                {/* Tres décadas de trabajo en campo nos han permitido consolidar un modelo integral donde el rigor científico, la articulación con actores clave y la verificabilidad de resultados convergen en cada proyecto. Esta es la base de nuestra autoridad técnica y la razón por la que organismos internacionales, instituciones y empresas nos eligen como socio estratégico." */}
+              </p>
               <p className="section-body">
                 Tres décadas de trabajo en campo consolidan un modelo integral de rigor científico, articulación multisectorial y resultados verificables que posiciona a GIMEFOR como socio estratégico de instituciones nacionales e internacionales y del sector productivo.              </p>
             </div>
