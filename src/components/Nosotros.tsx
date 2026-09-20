@@ -26,13 +26,13 @@ export default function Nosotros() {
         <div className="nosotros__grid">
           <div className="nosotros__image-wrap">
             <img
-              src="comunidadActiva2.jpg"
+              src="comunidadActiva.jpg"
               alt="Ecosistema de manglar — área de intervención GIMEFOR en el Delta del Orinoco"
               className="nosotros__image"
             />
             <div className="nosotros__badge">
-              <span className="nosotros__badge-number">1995</span>
-              <span className="nosotros__badge-label">Año de fundación</span>
+              <span className="nosotros__badge-number">Acción</span>
+              <span className="nosotros__badge-label">COMUNITARIA</span>
             </div>
           </div>
 
