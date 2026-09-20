@@ -14,6 +14,7 @@
   --copper: #a87551;
   --copper-dark: #8a5d3a;
   --plum: #723b72;
+  --plum-opacity: #723b7290;
   --plum-dark: #5a2d5a;
   --forest: #406239;
   --forest-dark: #2e4629;
@@ -535,7 +536,7 @@ input, select, textarea { font-family: var(--font-body); }
   position: absolute;
   bottom: 1.5rem;
   right: 1.5rem;
-  background: var(--plum);
+  background: var(--plum-opacity);
   color: var(--white);
   padding: 1rem 1.25rem;
   border-radius: var(--radius);
