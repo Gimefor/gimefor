@@ -26,7 +26,7 @@ export default function Nosotros() {
         <div className="nosotros__grid">
           <div className="nosotros__image-wrap">
             <img
-              src="comunidadActiva.jpg"
+              src="comunidadActiva2.jpg"
               alt="Ecosistema de manglar — área de intervención GIMEFOR en el Delta del Orinoco"
               className="nosotros__image"
             />
